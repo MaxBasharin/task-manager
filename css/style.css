@@ -44,5 +44,30 @@ img {
 
 .calendar__body {
     display: grid;
-    
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.calendar__cell {
+
+  padding: 20px;
+  text-align: center;
+}
+
+.calendar__cell_week-day {
+  background-color: bisque;
+  padding: 20px;
+  text-align: center;
+}
+
+.calendar__cell_weekend {
+  background-color:lawngreen;
+}
+
+.calendar__cell_day {
+  background-color: aquamarine;
+}
+
+.calendar__cell_day-wekend {
+  background-color:blueviolet;
 }
